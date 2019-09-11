@@ -1,0 +1,77 @@
+body{
+    /* background: url("Views/cyberpunk.jpg") repeat 0 0; */
+    background-color: #202040;
+}
+
+h1 {
+        font-size: 16rem;
+        color: #b030b0;
+        text-align: center;
+        margin-top: 0;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-family: adventure; 
+    }
+.introduction {
+    color: #b030b0;
+    text-align: center;
+    font-family: adventure; 
+    font-size: 2.5rem;
+}
+
+.socialLinks{
+    margin-right: 45px;
+}
+
+.glitch-window{
+position: absolute;
+top: 0;
+left: -4px;
+width: 100%;
+color: white;
+text-shadow: 2px 0 yellow, -2px 0 lightblue, -4px 0 green;
+overflow:auto;
+animation: crt-me 2500ms infinite linear alternate-reverse;
+}
+
+@font-face {
+font-family: adventure;
+src: url("Views/Nikolas & Pine.otf");
+}
+
+@keyframes crt-me {
+    0% {
+        clip: rect(31px, 9999px, 188px, 0)
+    }
+    10% {
+        clip: rect(112px, 9999px, 152px, 0)
+    }
+    20% {
+        clip: rect(85px, 9999px, 154px, 0)
+    }
+    30% {
+        clip: rect(27px, 9999px, 194px, 0)
+    }
+    40% {
+        clip: rect(64px, 9999px, 196px, 0)
+    }
+    50% {
+        clip: rect(61px, 9999px, 170px, 0)
+    }
+    60% {
+        clip: rect(99px, 9999px, 228px, 0)
+    }
+    70% {
+        clip: rect(34px, 9999px, 230px, 0)
+    }
+    80% {
+        clip: rect(98px, 9999px, 158px, 0)
+    }
+    90% {
+        clip: rect(43px, 9999px, 192px, 0)
+    }
+    100% {
+        clip: rect(82px, 9999px, 128px, 0)
+    }
+    
+}
