@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+
+    <title>Steven Zanga</title>
+  </head>
+  <body class="body">
+    <div class="d-flex p-2 justify-content-center">
+      <h1 class="glitched">Hello</h2>
+    </div>
+    <div class="d-flex p-2 justify-content-center">
+        <h4 class="introduction">my name is steven zanga, I'm a software developer from montreal</h4>
+        <br>
+    </div>
+    <div class="d-flex p-2 justify-content-center">
+        <a class='socialLinks' href="https://twitter.com/stevenzanga" target="_blank"><img src="Views/twitter.png"></a>
+        <a class='socialLinks' href="https://github.com/stevau5" target="_blank"><img src="Views/github.png"></a>
+        <a class='socialLinks' href="https://https://www.linkedin.com/in/stevenzanga/" target="_blank"><img src="Views/linkedin.png"></a>
+
+
+    </div>
+  </body>
+
+<!-- 
+  <script>
+        $("header").append("<div class='glitch-window'></div>");
+        //fill div with clone of real header
+        $("h1.glitched").clone().appendTo(".glitch-window");
+      </script> -->
+
+
+
+
+
+<!-- --------------------------------------- -->
+  <style>
+
+    body{
+        /* background: url("Views/cyberpunk.jpg") repeat 0 0; */
+        background-color: #202040;
+    }
+
+    h1 {
+            font-size: 16rem;
+            color: #b030b0;
+            text-align: center;
+            margin-top: 0;
+            text-transform: capitalize;
+            font-weight: 300;
+            font-family: adventure; 
+        }
+    .introduction {
+        color: #b030b0;
+        text-align: center;
+        font-family: adventure; 
+        font-size: 2.5rem;
+    }
+
+    .socialLinks{
+        margin-right: 45px;
+    }
+
+    .glitch-window{
+	position: absolute;
+	top: 0;
+	left: -4px;
+	width: 100%;
+	color: white;
+	text-shadow: 2px 0 #602080, -2px 0 #602080, -4px 0 green;
+	overflow:auto;
+	animation: crt-me 2500ms infinite linear alternate-reverse;
+}
+
+    @font-face {
+    font-family: adventure;
+    src: url("Views/Nikolas & Pine.otf");
+    }
+
+    @keyframes crt-me {
+        0% {
+            clip: rect(31px, 9999px, 188px, 0)
+        }
+        10% {
+            clip: rect(112px, 9999px, 152px, 0)
+        }
+        20% {
+            clip: rect(85px, 9999px, 154px, 0)
+        }
+        30% {
+            clip: rect(27px, 9999px, 194px, 0)
+        }
+        40% {
+            clip: rect(64px, 9999px, 196px, 0)
+        }
+        50% {
+            clip: rect(61px, 9999px, 170px, 0)
+        }
+        60% {
+            clip: rect(99px, 9999px, 228px, 0)
+        }
+        70% {
+            clip: rect(34px, 9999px, 230px, 0)
+        }
+        80% {
+            clip: rect(98px, 9999px, 158px, 0)
+        }
+        90% {
+            clip: rect(43px, 9999px, 192px, 0)
+        }
+        100% {
+            clip: rect(82px, 9999px, 128px, 0)
+        }
+        
+    }
+  </style>
+
+  <script>
+    $("body").append("<div class='glitch-window'></div>");
+    //fill div with clone of real header
+    $("h1.glitched").clone().appendTo(".glitch-window");
+  </script>
+</html>
+
